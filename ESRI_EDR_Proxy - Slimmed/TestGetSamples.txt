@@ -1,0 +1,43 @@
+
+
+
+http://localhost:8080/collections/SeaTemperature/position?coords=POINT(3.45%201.5)&datetime=2014-04-10T00:01:00.000Z&parameter-name=t@sfc&crs=native&f=CoverageJSON
+
+
+https://sampleserver6.arcgisonline.com/arcgis/rest/services/ScientificData/NDFD_Model/ImageServer/getSamples?f=html&geometry=%7B%22x%22%3A3.45%2C%22y%22%3A1.5%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&sampleCount=&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicNone%22%2C%22sortField%22%3A%22*%22%2C%22mosaicOperation%22%3A%22MT_FIRST%22%2C%22multidimensionalDefinition%22%3A%5B%7B%22variableName%22%3A%22water_temp%22%2C%22dimensionName%22%3A%22StdTime%22%2C%22values%22%3A%5B1397088060000%5D%2C%22isSlice%22%3Afalse%7D%5D%7D&returnFirstValueOnly=false&interpolation=RSP_BilinearInterpolation&outFields=*
+
+https://sampleserver6.arcgisonline.com/arcgis/rest/services/ScientificData/NDFD_Model/ImageServer/getSamples?geometry=%7B%22points%22%20%3A%20%5B%5B38.9%2C-77%5D%2C%5B48.85%2C2.35%5D%2C%5B39.92%2C16.38%5D%2C%5B-35.29%2C49.1%5D%2C%5B51.5%2C-0.1%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%2C%22latestWkid%22%3A4326%7D%7D&geometryType=esriGeometryMultipoint&sampleDistance=&sampleCount=&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicAttribute%22%2C%22sortField%22%3A%22StdTime%22%2C%22sortValue%22%3A%22%22%2C%22ascending%22%3Atrue%2C%22mosaicOperation%22%3A%22MT_FIRST%22%2C%22multidimensionalDefinition%22%3A%5B%7B%22variableName%22%3A%222t%40sfc%22%2C%22dimensionName%22%3A%22StdTime%22%2C%22values%22%3A%5B1579046400000%5D%2C%22isSlice%22%3Afalse%7D%5D%7D&pixelSize=&returnFirstValueOnly=false&interpolation=RSP_BilinearInterpolation&outFields=&f=html
+
+
+Point Call
+https://sampleserver6.arcgisonline.com/arcgis/rest/services/ScientificData/NDFD_Model/ImageServer/getSamples?f=html&geometry=%7B%22x%22%3A3.45%2C%22y%22%3A51.5%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicNone%22%2C%22sortField%22%3A%22*%22%2C%22mosaicOperation%22%3A%22MT_FIRST%22%2C%22multidimensionalDefinition%22%3A%5B%7B%22variableName%22%3A%22t%40isbl%22%2C%22dimensionName%22%3A%22StdTime%22%2C%22values%22%3A%5B1579046400000%5D%2C%22isSlice%22%3Afalse%7D%2C%7B%22variableName%22%3A%22t%40isbl%22%2C%22dimensionName%22%3A%22StdPressure%22%2C%22values%22%3A%5B%2230000%22%5D%2C%22isSlice%22%3Afalse%7D%5D%7D&returnFirstValueOnly=false&interpolation=RSP_BilinearInterpolation&outFields=*
+
+Point Call.
+https://sampleserver6.arcgisonline.com/arcgis/rest/services/ScientificData/NDFD_Model/ImageServer/getSamples?f=json&geometry=%7B%22x%22%3A3.45%2C%22y%22%3A51.5%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicNone%22%2C%22sortField%22%3A%22*%22%2C%22mosaicOperation%22%3A%22MT_FIRST%22%2C%22multidimensionalDefinition%22%3A%5B%7B%22variableName%22%3A%22t%40isbl%22%2C%22dimensionName%22%3A%22StdTime%22%2C%22values%22%3A%5B1579046400000%5D%2C%22isSlice%22%3Afalse%7D%2C%7B%22variableName%22%3A%22t%40isbl%22%2C%22dimensionName%22%3A%22StdPressure%22%2C%22values%22%3A%5B%2230000%22%5D%2C%22isSlice%22%3Afalse%7D%5D%7D&returnFirstValueOnly=false&interpolation=RSP_BilinearInterpolation&outFields=*
+
+EDR call for static layers on development server.
+
+url=https://performance.dev.esrieval.api.metoffice.gov.uk/server/rest/service
+
+TARGET_SERVER=https://performance.dev.esrieval.api.metoffice.gov.uk/server/rest/services/static_20230312T1200Z
+               TARGET_SERVER=https://sampleserver6.arcgisonline.com/arcgis/rest/services/ScientificData
+
+collectionId=static_temperature_at_screen_level_uk
+
+EDR call is:- 
+http://localhost:8080/collections/static_temperature_at_screen_level_uk/instances/latest/position?coords=POINT(-0.773 51.945)&datetime=2023-03-12T12:00:00.000Z&parameter-name=air_temperature&crs=EPSG:4326&f=CoverageJSON
+
+http://localhost:8080/collections/NDFD_model/instances/latest/position?coords=POINT(-0.773 51.945)&datetime=2023-03-12T12:00:00.000Z&parameter-name=air_temperature&crs=EPSG:4326&f=CoverageJSON
+
+https://sampleserver6.arcgisonline.com/arcgis/rest/services/ScientificData/NDFD_model/ImageServer/getSamples?f=json&geometry=%7B%22x%22%3A-0.773%2C%22y%22%3A51.945%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&sampleCount=&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicNone%22%2C%22sortField%22%3A%22*%22%2C%22mosaicOperation%22%3A%22MT_FIRST%22%2C%22multidimensionalDefinition%22%3A%5B%7B%22variableName%22%3A%22air_temperature%22%2C%22dimensionName%22%3A%22StdTime%22%2C%22values%22%3A%5B1678622400000%5D%2C%22isSlice%22%3Afalse%7D%5D%7D&returnFirstValueOnly=false&interpolation=RSP_BilinearInterpolation&outFields=*
+
+
+
+2023-03-12T12:00:00.000Z
+2023-03-12T13:00:00.000Z
+2023-03-12T14:00:00.000Z etc
+
+For reference
+https://labs.metoffice.gov.uk/edr/collections/ecmwfenfo-single-level/instances/2023040118z/position?coords=POINT(-0.643 51.904)&datetime=2023-04-01T18:00Z/2023-04-01T18:00Z&number=0&parameter-name=skt&crs=EPSG:4326&f=CoverageJSON
+
+

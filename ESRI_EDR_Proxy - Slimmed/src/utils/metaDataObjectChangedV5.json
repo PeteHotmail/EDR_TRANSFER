@@ -1,0 +1,2222 @@
+{
+  "WMO_alias=Ground or water surface:ESRI_alias=Ground or water surface?": {
+    "Best_4_layer_Lifted_Index_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Best (4 layer) Lifted Index for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "K"
+        },
+        "symbol": {
+          "value": "K",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/K"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-7-193",
+        "label": {
+          "en": "Best_4_layer_Lifted_Index_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Convective_precipitation_surface_Mixed_intervals_Accumulation": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Convective precipitation for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "kg.m-2"
+        },
+        "symbol": {
+          "value": "kg.m-2",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/kg.m-2"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-10",
+        "label": {
+          "en": "Convective_precipitation_surface_Mixed_intervals_Accumulation"
+        }
+      },
+      "measurementType": {
+        "method": "Accumulation",
+        "period": "PT60M"
+      }
+    },
+    "Total_precipitation_surface_Mixed_intervals_Accumulation": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Total precipitation for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "kg.m-2"
+        },
+        "symbol": {
+          "value": "kg.m-2",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/kg.m-2"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-8",
+        "label": {
+          "en": "Total_precipitation_surface_Mixed_intervals_Accumulation"
+        }
+      },
+      "measurementType": {
+        "method": "Accumulation",
+        "period": "PT60M"
+      }
+    },
+    "Convective precipitation rate:ESRI_alias=cp@sfc?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Convective precipitation rate for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "kg.m-2.s-1"
+        },
+        "symbol": {
+          "value": "kg.m-2.s-1",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/kg.m-2.s-1"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-37",
+        "label": {
+          "en": "Convective_precipitation_rate_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Potential_Evaporation_Rate_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Potential Evaporation Rate for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "W.m-2"
+        },
+        "symbol": {
+          "value": "W.m-2",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/W.m-2"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-200",
+        "label": {
+          "en": "Potential_Evaporation_Rate_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Albedo_surface_Mixed_intervals_Average": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Albedo for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "%"
+        },
+        "symbol": {
+          "value": "%",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/%"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-19-1",
+        "label": {
+          "en": "Albedo_surface_Mixed_intervals_Average"
+        }
+      },
+      "measurementType": {
+        "method": "Average",
+        "period": "PT60M"
+      }
+    },
+    "Categorical_Freezing_Rain_surface_Mixed_intervals_Average": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Categorical Freezing Rain for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "Code table 4.222"
+        },
+        "symbol": {
+          "value": "Code table 4.222",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/Code table 4.222"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-193",
+        "label": {
+          "en": "Categorical_Freezing_Rain_surface_Mixed_intervals_Average"
+        }
+      },
+      "measurementType": {
+        "method": "Average",
+        "period": "PT60M"
+      }
+    },
+    "Categorical_Ice_Pellets_surface_Mixed_intervals_Average": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Categorical Ice Pellets for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "Code table 4.222"
+        },
+        "symbol": {
+          "value": "Code table 4.222",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/Code table 4.222"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-194",
+        "label": {
+          "en": "Categorical_Ice_Pellets_surface_Mixed_intervals_Average"
+        }
+      },
+      "measurementType": {
+        "method": "Average",
+        "period": "PT60M"
+      }
+    },
+    "Categorical_Rain_surface_Mixed_intervals_Average": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Categorical Rain for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "Code table 4.222"
+        },
+        "symbol": {
+          "value": "Code table 4.222",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/Code table 4.222"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-192",
+        "label": {
+          "en": "Categorical_Rain_surface_Mixed_intervals_Average"
+        }
+      },
+      "measurementType": {
+        "method": "Average",
+        "period": "PT60M"
+      }
+    },
+    "Categorical_Snow_surface_Mixed_intervals_Average": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Categorical Snow for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "Code table 4.222"
+        },
+        "symbol": {
+          "value": "Code table 4.222",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/Code table 4.222"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-195",
+        "label": {
+          "en": "Categorical_Snow_surface_Mixed_intervals_Average"
+        }
+      },
+      "measurementType": {
+        "method": "Average",
+        "period": "PT60M"
+      }
+    },
+    "Convective_Precipitation_Rate_surface_Mixed_intervals_Average": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Convective Precipitation Rate for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "kg.m-2.s-1"
+        },
+        "symbol": {
+          "value": "kg.m-2.s-1",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/kg.m-2.s-1"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-196",
+        "label": {
+          "en": "Convective_Precipitation_Rate_surface_Mixed_intervals_Average"
+        }
+      },
+      "measurementType": {
+        "method": "Average",
+        "period": "PT60M"
+      }
+    },
+    "Downward_Long-Wave_Radp_Flux_surface_Mixed_intervals_Average": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Downward Long-Wave Rad. Flux for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "W.m-2"
+        },
+        "symbol": {
+          "value": "W.m-2",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/W.m-2"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-5-192",
+        "label": {
+          "en": "Downward_Long-Wave_Radp_Flux_surface_Mixed_intervals_Average"
+        }
+      },
+      "measurementType": {
+        "method": "Average",
+        "period": "PT60M"
+      }
+    },
+    "Downward_Short-Wave_Radiation_Flux_surface_Mixed_intervals_Average": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Downward Short-Wave Radiation Flux for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "W.m-2"
+        },
+        "symbol": {
+          "value": "W.m-2",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/W.m-2"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-4-192",
+        "label": {
+          "en": "Downward_Short-Wave_Radiation_Flux_surface_Mixed_intervals_Average"
+        }
+      },
+      "measurementType": {
+        "method": "Average",
+        "period": "PT60M"
+      }
+    },
+    "Ground_Heat_Flux_surface_Mixed_intervals_Average": {
+      "type": "Parameter",
+      "description": {
+        "en": "Land surface products, Ground Heat Flux for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "W.m-2"
+        },
+        "symbol": {
+          "value": "W.m-2",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/W.m-2"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_2-0-193",
+        "label": {
+          "en": "Ground_Heat_Flux_surface_Mixed_intervals_Average"
+        }
+      },
+      "measurementType": {
+        "method": "Average",
+        "period": "PT60M"
+      }
+    },
+    "Latent_heat_net_flux_surface_Mixed_intervals_Average": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Latent heat net flux for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "W.m-2"
+        },
+        "symbol": {
+          "value": "W.m-2",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/W.m-2"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-0-10",
+        "label": {
+          "en": "Latent_heat_net_flux_surface_Mixed_intervals_Average"
+        }
+      },
+      "measurementType": {
+        "method": "Average",
+        "period": "PT60M"
+      }
+    },
+    "Meridional_Flux_of_Gravity_Wave_Stress_surface_Mixed_intervals_Average": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Meridional Flux of Gravity Wave Stress for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "N.m-2"
+        },
+        "symbol": {
+          "value": "N.m-2",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/N.m-2"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-3-195",
+        "label": {
+          "en": "Meridional_Flux_of_Gravity_Wave_Stress_surface_Mixed_intervals_Average"
+        }
+      },
+      "measurementType": {
+        "method": "Average",
+        "period": "PT60M"
+      }
+    },
+    "Momentum_flux_u-component_surface_Mixed_intervals_Average": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Momentum flux, u-component for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "N.m-2"
+        },
+        "symbol": {
+          "value": "N.m-2",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/N.m-2"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-2-17",
+        "label": {
+          "en": "Momentum_flux_u-component_surface_Mixed_intervals_Average"
+        }
+      },
+      "measurementType": {
+        "method": "Average",
+        "period": "PT60M"
+      }
+    },
+    "Momentum_flux_v-component_surface_Mixed_intervals_Average": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Momentum flux, v-component for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "N.m-2"
+        },
+        "symbol": {
+          "value": "N.m-2",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/N.m-2"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-2-18",
+        "label": {
+          "en": "Momentum_flux_v-component_surface_Mixed_intervals_Average"
+        }
+      },
+      "measurementType": {
+        "method": "Average",
+        "period": "PT60M"
+      }
+    },
+    "Precipitation_rate_surface_Mixed_intervals_Average": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Precipitation rate for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "kg.m-2.s-1"
+        },
+        "symbol": {
+          "value": "kg.m-2.s-1",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/kg.m-2.s-1"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-7",
+        "label": {
+          "en": "Precipitation_rate_surface_Mixed_intervals_Average"
+        }
+      },
+      "measurementType": {
+        "method": "Average",
+        "period": "PT60M"
+      }
+    },
+    "Sensible_heat_net_flux_surface_Mixed_intervals_Average": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Sensible heat net flux for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "W.m-2"
+        },
+        "symbol": {
+          "value": "W.m-2",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/W.m-2"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-0-11",
+        "label": {
+          "en": "Sensible_heat_net_flux_surface_Mixed_intervals_Average"
+        }
+      },
+      "measurementType": {
+        "method": "Average",
+        "period": "PT60M"
+      }
+    },
+    "Water_runoff_surface_Mixed_intervals_Accumulation": {
+      "type": "Parameter",
+      "description": {
+        "en": "Land surface products, Water runoff for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "kg.m-2"
+        },
+        "symbol": {
+          "value": "kg.m-2",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/kg.m-2"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_2-0-5",
+        "label": {
+          "en": "Water_runoff_surface_Mixed_intervals_Accumulation"
+        }
+      },
+      "measurementType": {
+        "method": "Accumulation",
+        "period": "PT60M"
+      }
+    },
+    "Zonal_Flux_of_Gravity_Wave_Stress_surface_Mixed_intervals_Average": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Zonal Flux of Gravity Wave Stress for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "N.m-2"
+        },
+        "symbol": {
+          "value": "N.m-2",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/N.m-2"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-3-194",
+        "label": {
+          "en": "Zonal_Flux_of_Gravity_Wave_Stress_surface_Mixed_intervals_Average"
+        }
+      },
+      "measurementType": {
+        "method": "Average",
+        "period": "PT60M"
+      }
+    },
+    "Categorical_Freezing_Rain_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Categorical Freezing Rain for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "Code table 4.222"
+        },
+        "symbol": {
+          "value": "Code table 4.222",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/Code table 4.222"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-193",
+        "label": {
+          "en": "Categorical_Freezing_Rain_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Categorical_Ice_Pellets_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Categorical Ice Pellets for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "Code table 4.222"
+        },
+        "symbol": {
+          "value": "Code table 4.222",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/Code table 4.222"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-194",
+        "label": {
+          "en": "Categorical_Ice_Pellets_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Categorical_Rain_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Categorical Rain for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "Code table 4.222"
+        },
+        "symbol": {
+          "value": "Code table 4.222",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/Code table 4.222"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-33",
+        "label": {
+          "en": "Categorical_Rain_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Categorical_Snow_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Categorical Snow for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "Code table 4.222"
+        },
+        "symbol": {
+          "value": "Code table 4.222",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/Code table 4.222"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-195",
+        "label": {
+          "en": "Categorical_Snow_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Convective_available_potential_energy_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Convective available potential energy for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "J/kg"
+        },
+        "symbol": {
+          "value": "J%20kg",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/J%20kg"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-7-6",
+        "label": {
+          "en": "Convective_available_potential_energy_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Convective_inhibition_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Convective inhibition for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "J/kg"
+        },
+        "symbol": {
+          "value": "J%20kg",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/J%20kg"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-7-7",
+        "label": {
+          "en": "Convective_inhibition_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Field_Capacity_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Land surface products, Field Capacity for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "Fraction"
+        },
+        "symbol": {
+          "value": "Fraction",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/Fraction"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_2-3-203",
+        "label": {
+          "en": "Field_Capacity_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Geopotential_height_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Geopotential height for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "gpm"
+        },
+        "symbol": {
+          "value": "gpm",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/gpm"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-3-5",
+        "label": {
+          "en": "Geopotential_height_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Haines_index_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Land surface products, Haines index for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": ""
+        },
+        "symbol": {
+          "value": "",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_2-4-2",
+        "label": {
+          "en": "Haines_index_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Ice_cover_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Oceanographic products, Ice cover for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": ""
+        },
+        "symbol": {
+          "value": "",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_10-2-0",
+        "label": {
+          "en": "Ice_cover_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Land-sea_coverage_nearest_neighbor_land1sea0_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Land surface products, Land-sea coverage (nearest neighbor) [land=1,sea=0] for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": ""
+        },
+        "symbol": {
+          "value": "",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_2-0-218",
+        "label": {
+          "en": "Land-sea_coverage_nearest_neighbor_land1sea0_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Land_cover_0__sea_1__land_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Land surface products, Land cover (0 = sea, 1 = land) for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": ""
+        },
+        "symbol": {
+          "value": "",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_2-0-0",
+        "label": {
+          "en": "Land_cover_0__sea_1__land_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Per_cent_frozen_precipitation_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Per cent frozen precipitation for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "%"
+        },
+        "symbol": {
+          "value": "%",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/%"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-39",
+        "label": {
+          "en": "Per_cent_frozen_precipitation_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Planetary_Boundary_Layer_Height_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Planetary Boundary Layer Height for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "m"
+        },
+        "symbol": {
+          "value": "m",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/m"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-3-196",
+        "label": {
+          "en": "Planetary_Boundary_Layer_Height_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Pressure_surface:ESRI_alias=sp@sfc?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Pressure for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "Pa"
+        },
+        "symbol": {
+          "value": "Pa",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/Pa"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-3-0",
+        "label": {
+          "en": "Pressure_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Snow_depth_surface:ESRI_alias=sd@sfc?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Snow depth for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "m"
+        },
+        "symbol": {
+          "value": "m",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/m"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-11",
+        "label": {
+          "en": "Snow_depth_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Large scale snowfall rate water equivalent:ESRI_alias=sf@sfc?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Large scale snowfall rate water equivalent"
+      },
+      "unit": {
+        "label": {
+          "en": "m"
+        },
+        "symbol": {
+          "value": "m",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/m"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-56",
+        "label": {
+          "en": "Large scale snowfall rate water equivalent"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Sunshine_Duration_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Sunshine Duration for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "s"
+        },
+        "symbol": {
+          "value": "s",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/s"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-6-201",
+        "label": {
+          "en": "Sunshine_Duration_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Surface_Lifted_Index_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Surface Lifted Index for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "K"
+        },
+        "symbol": {
+          "value": "K",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/K"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-7-192",
+        "label": {
+          "en": "Surface_Lifted_Index_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Visibility_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Visibility for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "m"
+        },
+        "symbol": {
+          "value": "m",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/m"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-19-0",
+        "label": {
+          "en": "Visibility_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Water_equivalent_of_accumulated_snow_depth_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Water equivalent of accumulated snow depth for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "kg.m-2"
+        },
+        "symbol": {
+          "value": "kg.m-2",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/kg.m-2"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-13",
+        "label": {
+          "en": "Water_equivalent_of_accumulated_snow_depth_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Wilting_Point_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Land surface products, Wilting Point for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "Fraction"
+        },
+        "symbol": {
+          "value": "Fraction",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/Fraction"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_2-0-201",
+        "label": {
+          "en": "Wilting_Point_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Total precipitation:ESRI_alias=tp@sfc?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Land surface products, Total precipitation"
+      },
+      "unit": {
+        "label": {
+          "en": "Kg/m**2"
+        },
+        "symbol": {
+          "value": "Kg/m**2",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/Kg/m**2"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-8",
+        "label": {
+          "en": "Total precipitation"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Radar spectra (3):ESRI_alias=rdsp3@sfc?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Land surface products, Radar spectra (3)"
+      },
+      "unit": {
+        "label": {
+          "en": "M"
+        },
+        "symbol": {
+          "value": "M",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/M"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-15-8",
+        "label": {
+          "en": "Radar spectra (3)"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Parcel lifted index (to 500 hPa):ESRI_alias=pli@sfc?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Land surface products, Parcel lifted index (to 500 hPa)"
+      },
+      "unit": {
+        "label": {
+          "en": "Kelvin"
+        },
+        "symbol": {
+          "value": "K",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/Kelvin"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_2-0-201",
+        "label": {
+          "en": "Wilting_Point_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Pressure reduced to MSL:ESRI_alias=msl@sfc?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Land surface products, Pressure reduced to MSL"
+      },
+      "unit": {
+        "label": {
+          "en": "Pa"
+        },
+        "symbol": {
+          "value": "Pa",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/Pa"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-3-1",
+        "label": {
+          "en": "Pressure reduced to MSL"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Precipitation_rate_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Precipitation rate for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "kg.m-2.s-1"
+        },
+        "symbol": {
+          "value": "kg.m-2.s-1",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/kg.m-2.s-1"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-7",
+        "label": {
+          "en": "Precipitation_rate_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Large-scale precipitation (non-convective):ESRI_alias=lsp@sfc?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Large-scale precipitation (non-convective)for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "kg.m-2.s-1"
+        },
+        "symbol": {
+          "value": "kg.m-2.s-1",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/kg.m-2.s-1"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-9",
+        "label": {
+          "en": "Precipitation_rate_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "High cloud cover:ESRI_alias=hcc@sfc?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Land surface products, High cloud cover"
+      },
+      "unit": {
+        "label": {
+          "en": "Fraction"
+        },
+        "symbol": {
+          "value": "Fraction",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/Fraction"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-6-5",
+        "label": {
+          "en": "High Cloud Cover"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Medium cloud cover:ESRI_alias=mcc@sfc?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Land surface products, Medium cloud cover"
+      },
+      "unit": {
+        "label": {
+          "en": "Fraction"
+        },
+        "symbol": {
+          "value": "Fraction",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/Fraction"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-6-4",
+        "label": {
+          "en": "High Cloud Cover"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Low cloud cover:ESRI_alias=lcc@sfc?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Land surface products, Low cloud cover"
+      },
+      "unit": {
+        "label": {
+          "en": "Fraction"
+        },
+        "symbol": {
+          "value": "Fraction",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/Fraction"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-6-3",
+        "label": {
+          "en": "Low Cloud Cover"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Total cloud cover:ESRI_alias=tcc@sfc?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Land surface products, Total cloud cover"
+      },
+      "unit": {
+        "label": {
+          "en": "Fraction"
+        },
+        "symbol": {
+          "value": "Fraction",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/Fraction"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-6-1",
+        "label": {
+          "en": "Total Cloud Cover"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Temperature_surface:ESRI_alias=2t@sfc?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, 2M Temperature for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "K"
+        },
+        "symbol": {
+          "value": "K",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/K"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-0-0",
+        "label": {
+          "en": "Temperature_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Dewpoint temperature:ESRI_alias=2d@sfc?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, 2M Dew Point Temperature for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "K"
+        },
+        "symbol": {
+          "value": "K",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/K"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-0-6",
+        "label": {
+          "en": "Temperature_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "u-component of wind:ESRI_alias=10u@sfc?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, u-component of wind for Specific altitude above mean sea level"
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m/s",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/m%20s"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-2-2",
+        "label": {
+          "en": "u-component_of_wind_altitude_above_msl"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "v-component of wind:ESRI_alias=10v@sfc?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, v-component of wind for Specific altitude above mean sea level"
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m/s",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/m%20s"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-2-3",
+        "label": {
+          "en": "v-component_of_wind_altitude_above_msl"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Wind_speed_gust_surface": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Wind speed (gust) for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m/s",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/m%20s"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-2-22",
+        "label": {
+          "en": "Wind_speed_gust_surface"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Undefined:ESRI_alias=var59@sfc": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Wind speed (gust) for Ground or water surface"
+      },
+      "unit": {
+        "label": {
+          "en": "undefined"
+        },
+        "symbol": {
+          "value": "undefined",
+          "type": "undefined"
+        }
+      },
+      "observedProperty": {
+        "id": "undefined",
+        "label": {
+          "en": "undefined"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    }
+  },
+  "WMO_alias=Entire atmosphere:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Isobaric surface:ESRI_alias=Isobaric surface?": {
+    "Relative humidity:ESRI_alias=r@isbl?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Relative humidity for Isobaric surface"
+      },
+      "unit": {
+        "label": {
+          "en": "%"
+        },
+        "symbol": {
+          "value": "%",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/%"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-1",
+        "label": {
+          "en": "Relative_humidity_isobaric"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "u-component of wind:ESRI_alias=u@isbl?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, u-component of wind for Isobaric surface"
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m%20s",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/m%20s"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-2-2",
+        "label": {
+          "en": "u-component_of_wind_isobaric"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "v-component of windd:ESRI_alias=v@isbl?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, v-component of wind for Isobaric surface"
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m%20s",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/m%20s"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-2-3",
+        "label": {
+          "en": "v-component_of_wind_isobaric"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Geopotential_height:ESRI_alias=gh@isbl?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Geopotential height for Isobaric surface"
+      },
+      "unit": {
+        "label": {
+          "en": "gpm"
+        },
+        "symbol": {
+          "value": "gpm",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/gpm"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-3-5",
+        "label": {
+          "en": "Geopotential_height_isobaric"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Temperature:ESRI_alias=t@isbl?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Temperature for Isobaric surface"
+      },
+      "unit": {
+        "label": {
+          "en": "K"
+        },
+        "symbol": {
+          "value": "K",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/K"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-0-0",
+        "label": {
+          "en": "Temperature_isobaric"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Divergence:ESRI_alias=d@isbl?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Divergence"
+      },
+      "unit": {
+        "label": {
+          "en": "1/Sec"
+        },
+        "symbol": {
+          "value": "/Sec",
+          "type": "\"Not Set\""
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_3-1-13",
+        "label": {
+          "en": "Atmospheric Divergence"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Relative Vorticity:ESRI_alias=vo@isbl?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Relative Vorticity"
+      },
+      "unit": {
+        "label": {
+          "en": "1/Sec"
+        },
+        "symbol": {
+          "value": "/Sec",
+          "type": "\"Not Set\""
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-2-12",
+        "label": {
+          "en": "Atmospheric Relative Vorticity"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Vertical velocity (pressure):ESRI_alias=w@isbl?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Vertical velocity (pressure)"
+      },
+      "unit": {
+        "label": {
+          "en": "Pa/Sec"
+        },
+        "symbol": {
+          "value": "Pa/Sec",
+          "type": "\"Not Set\""
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-2-8",
+        "label": {
+          "en": "Atmospheric Vertical velocity (pressure)"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Undefined:ESRI_alias=var60@isbl?": {
+      "type": "Parameter",
+      "description": {
+        "en": "Undefined"
+      },
+      "unit": {
+        "label": {
+          "en": "Undefined"
+        },
+        "symbol": {
+          "value": "Undefined",
+          "type": "\"Undefined\""
+        }
+      },
+      "observedProperty": {
+        "id": "Undefined",
+        "label": {
+          "en": "Undefined"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    }
+  },
+  "WMO_alias=Mean sea level:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Specific altitude above mean sea level:ESRI_alias=NotSet?": {
+    "Temperature_altitude_above_msl": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Temperature for Specific altitude above mean sea level"
+      },
+      "unit": {
+        "label": {
+          "en": "K"
+        },
+        "symbol": {
+          "value": "K",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/K"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-0-0",
+        "label": {
+          "en": "Temperature_altitude_above_msl"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "u-component_of_wind_altitude_above_msl": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, u-component of wind for Specific altitude above mean sea level"
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m%20s",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/m%20s"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-2-2",
+        "label": {
+          "en": "u-component_of_wind_altitude_above_msl"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "v-component_of_wind_altitude_above_msl": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, v-component of wind for Specific altitude above mean sea level"
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m%20s",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/m%20s"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-2-3",
+        "label": {
+          "en": "v-component_of_wind_altitude_above_msl"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    }
+  },
+  "WMO_alias=Specified height level above ground:ESRI_alias=AGL?": {
+    "Apparent_temperature_height_above_ground": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Apparent temperature for Specified height level above ground"
+      },
+      "unit": {
+        "label": {
+          "en": "K"
+        },
+        "symbol": {
+          "value": "K",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/K"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-0-21",
+        "label": {
+          "en": "Apparent_temperature_height_above_ground"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Dewpoint_temperature_height_above_ground": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Dewpoint temperature for Specified height level above ground"
+      },
+      "unit": {
+        "label": {
+          "en": "K"
+        },
+        "symbol": {
+          "value": "K",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/K"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-0-6",
+        "label": {
+          "en": "Dewpoint_temperature_height_above_ground"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Relative_humidity_height_above_ground": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Relative humidity for Specified height level above ground"
+      },
+      "unit": {
+        "label": {
+          "en": "%"
+        },
+        "symbol": {
+          "value": "%",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/%"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-1",
+        "label": {
+          "en": "Relative_humidity_height_above_ground"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Temperature_height_above_ground": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Temperature for Specified height level above ground"
+      },
+      "unit": {
+        "label": {
+          "en": "K"
+        },
+        "symbol": {
+          "value": "K",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/K"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-0-0",
+        "label": {
+          "en": "Temperature_height_above_ground"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Specific_humidity_height_above_ground": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Specific humidity for Specified height level above ground"
+      },
+      "unit": {
+        "label": {
+          "en": "kg/kg"
+        },
+        "symbol": {
+          "value": "kg%20kg",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/kg%20kg"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-0",
+        "label": {
+          "en": "Specific_humidity_height_above_ground"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    }
+  },
+  "WMO_alias=Hybrid level:ESRI_alias=Hybrid?": {
+    "v-component of wind:ESRI_alias=vgrd@hybl": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, v-component of wind for Specific altitude above mean sea level"
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m/s",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/m%20s"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-2-3",
+        "label": {
+          "en": "v-component_of_wind_altitude_above_msl"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Specific humidity:ESRI_alias=spfh@hybl ": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Specific humidity "
+      },
+      "unit": {
+        "label": {
+          "en": "kg/kg"
+        },
+        "symbol": {
+          "value": "kg%20kg",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/kg%20kg"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-0",
+        "label": {
+          "en": "Specific_humidity_height_above_ground"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Vector-UV:ESRI_alias=Vector-UV": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Vector Wind"
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m/S",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/m/s"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-2-0",
+        "label": {
+          "en": "Vector Wind"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Temperature:ESRI_alias=tmp@hybl": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Temperature"
+      },
+      "unit": {
+        "label": {
+          "en": "K"
+        },
+        "symbol": {
+          "value": "K",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/%"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-0-0",
+        "label": {
+          "en": "Temperature"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "u-component of wind:ESRI_alias=ugrd@hybl": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, u-component of wind for Specific altitude above mean sea level"
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m/s",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/m%20s"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-2-2",
+        "label": {
+          "en": "u-component_of_wind_altitude_above_msl"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    }
+  },
+  "WMO_alias=Sigma level:ESRI_alias=sigma?": {
+    "v-component of wind:ESRI_alias=vgrd@sigma": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, v-component of wind for Specific altitude above mean sea level"
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m/s",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/m%20s"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-2-3",
+        "label": {
+          "en": "v-component_of_wind_altitude_above_msl"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Specific humidity:ESRI_alias=spfh@sigma": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Specific humidity "
+      },
+      "unit": {
+        "label": {
+          "en": "kg/kg"
+        },
+        "symbol": {
+          "value": "kg%20kg",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/kg%20kg"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-1-0",
+        "label": {
+          "en": "Specific_humidity_height_above_ground"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Vector-UV:ESRI_alias=Vector-UV": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Vector Wind"
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m/S",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/m/s"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-2-0",
+        "label": {
+          "en": "Vector Wind"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "Temperature:ESRI_alias=tmp@sigma": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, Temperature"
+      },
+      "unit": {
+        "label": {
+          "en": "K"
+        },
+        "symbol": {
+          "value": "K",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/%"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-0-0",
+        "label": {
+          "en": "Temperature"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    },
+    "u-component of wind:ESRI_alias=ugrd@hybl": {
+      "type": "Parameter",
+      "description": {
+        "en": "Meteorological products, u-component of wind for Specific altitude above mean sea level"
+      },
+      "unit": {
+        "label": {
+          "en": "m/s"
+        },
+        "symbol": {
+          "value": "m/s",
+          "type": "http://labs.metoffice.gov.uk/edr2/metadata/units/m%20s"
+        }
+      },
+      "observedProperty": {
+        "id": "http://codes.wmo.int/grib2/codeflag/4.2/_0-2-2",
+        "label": {
+          "en": "u-component_of_wind_altitude_above_msl"
+        }
+      },
+      "measurementType": {
+        "method": "",
+        "period": ""
+      }
+    }
+  },
+  "WMO_alias=Depth below land surface:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Isentropic (theta) level:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Level at specified pressure difference from ground to level:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Potential vorticity surface:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Cumulonimbus (CB) base:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Eta level:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Logarithmic hybrid level:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Snow level:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Mixed layer depth:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Hybrid height level:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Hybrid pressure level:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Cumulonimbus (CB) top:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Generalized vertical height coordinate:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Depth below sea level:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Depth below water surface:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Lake or river bottom:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Bottom of sediment layer:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Bottom of thermally active sediment layer:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Bottom of sediment layer penetrated by thermal wave:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Mixing layer:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Bottom of root zone:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Cloud base level:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Isothermal level:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Missing:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Level of cloud tops:ESRI_alias=NotSet?": "NotSet",
+  "undefined": "NotSet",
+  "WMO_alias=Level of adiabatic condensation lifted from the surface:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Maximum wind level:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Tropopause:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Nominal top of the atmosphere:ESRI_alias=NotSet?": "NotSet",
+  "WMO_alias=Sea bottom:ESRI_alias=NotSet?": "NotSet"
+}
